@@ -13,8 +13,9 @@ public class P1_OutputLoopResult {
 	}
 	
 	public static void printSumOfSquaresTo5() {
+		int finalResult = 0;
 		for( int i = 1; i <= 5; i++ ) {
-			int finalResult = 0;
+			
 			finalResult = finalResult + i * i;
 		}
 		
